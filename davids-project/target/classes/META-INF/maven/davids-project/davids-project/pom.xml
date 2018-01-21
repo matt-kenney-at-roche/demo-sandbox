@@ -3,5 +3,17 @@
   <groupId>davids-project</groupId>
   <artifactId>davids-project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.5.1</version>
+        <configuration>
+          <source/>
+          <target/>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
